@@ -3,7 +3,6 @@
 
 int main(){
 
-    // estrutura de dados?
     int l, c, linha, coluna, player, ganhou, jogadas, opcao;
     char jogo[3][3];
 
@@ -18,7 +17,7 @@ int main(){
             }
         }
 
-        do{ // repete até alguém ganhar ou atingir 9 jogadas
+        do{ // repete atÃ© alguÃ©m ganhar ou atingir 9 jogadas
             // imprimir jogo
             printf("\n\n\t 0   1   2\n\n");
             for(l = 0; l < 3; l++){
